@@ -1,0 +1,136 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    max-width: 1600px;
+    height: auto;
+}
+
+div.logo img{
+    width: 250px;
+    padding: 0;
+}
+div.logo {
+    text-align: center;
+    margin-left: 150px;
+}
+ul.c_header{
+    position: relative;
+    top:19px;
+    list-style: none;
+    z-index: 900;
+}
+ul.c_header li{
+    display: inline-block;
+}
+ul.c_header li a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+ul.c_header li:nth-child(2) {
+    margin-left: 0px;
+}
+ul.c_header li:nth-child(n+3) {
+    float: right;
+    margin:10px;
+}
+ul.top{
+    text-align: center;
+    list-style: none;
+    margin-top: -10px;
+}
+ul.top li{
+    display: inline-block;
+    position: flex;
+    padding:40px 100px 0px;
+    font-family:"BrilliantCutProMedium";
+    font-weight:initial;
+    color: grey;
+}
+ul.top li a{
+    transition: all 1s;
+    position: static;
+    text-decoration: none;
+    font-size: 19px;
+}
+ul.top li :hover{
+    transition: all 0.2s;
+    font-size: 150%;
+    color: red;
+}
+div.pic-home img{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+div.pic-home h2,h4{
+    text-align: center;
+    padding-top: 10px;
+    font-family:"BrilliantCutProMedium";
+}
+div.pic-home h4{
+    margin-top: -10px;
+}
+.mySlides {
+    display:none;
+    transition: cubic-bezier(1, 0, 0, 1);
+    }
+.mySlides:nth-child(1){
+    display: block;
+}
+div img.mySlides{
+    width: 100%;
+    padding-top: 80px;
+}
+div.view-all-menu{
+    width: 100%;
+    height: 452px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 80px;
+   border-radius: 10px;
+}
+div.view-all-menu > h2{
+    padding-top: 20px;
+    font-family: "Brush Script MT";
+}
+div.view-all-menu ul.list-show{
+    text-align: center;
+    list-style: none;
+}
+ul.list-show li{
+    display: inline-block;
+    position: flex;
+    padding: 30px;
+    margin-right: 40px;
+}
+ul.list-show li a img{
+    width: 200px;
+}
+h3.content-item{
+    text-decoration: none;
+}
+ul.list-show li h3{
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight:inherit;
+}
+div.view-all-menu button{
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px 0px black ;
+}
+div.view-all-menu a button{
+    text-decoration: none;
+    font-size: 15px;  
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+}
+div.view-all-menu button:hover{
+    background-color: gray;
+    border-width: 2px;
+    font-size: 110%;
+}
