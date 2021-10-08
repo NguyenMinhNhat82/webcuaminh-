@@ -134,3 +134,90 @@ div.view-all-menu button:hover{
     border-width: 2px;
     font-size: 110%;
 }
+#ranhgioi{
+    margin-top: 100px;
+    border-width: 2px;
+    border-color: black;
+    width: 80%;
+    margin-left: 150px;
+}
+nav.footer{
+    text-align: center;
+    margin-top: 100px;
+}
+nav.footer form input{
+    padding: 5px 50px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+ul.service{
+    text-align: center;
+    list-style: none;
+    margin-top: -10px;
+}
+ul.service li{
+    display: inline-block;
+    padding: 190px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+ul.service-roof {
+    list-style: none;
+    text-decoration: none;
+}
+ul.service-roof li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ul#cc{
+    margin-left: 230px;
+    text-align: left;
+}
+ul#cc li{
+    padding: 10px;
+}
+ul#oc{
+    margin-left: 750px;
+    margin-top: -220px;
+    text-align: left;
+}
+ul#oc li{
+    padding: 10px;
+}
+ul#fu{
+    margin-right: 160px;
+    margin-top: -80px;
+    text-align: right;
+    padding: 10px;
+}
+ul#fu li{
+    float: right;
+    padding: 20px;
+}
+ul#fu li a{
+   font-size: 30px;
+}
+div.abcxyz{
+    background-color: white;
+    height: 250px;
+}
+div.end{
+    height: 93.33px;
+       background: #c10016;
+       z-index: 9999;
+       color: white;
+}
+span.direction{
+    position: relative;
+    left: -300px;
+    top: 45px;
+}
+span.copyright{
+    position: relative;
+    right: -300px;
+    top: 45px;
+}
