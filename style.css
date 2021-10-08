@@ -40,11 +40,12 @@ ul.top{
     text-align: center;
     list-style: none;
     margin-top: -10px;
+    margin-top:20px;
 }
 ul.top li{
     display: inline-block;
     position: flex;
-    padding:40px 100px 0px;
+    padding:40px 40px 0px;
     font-family:"BrilliantCutProMedium";
     font-weight:initial;
     color: grey;
@@ -171,6 +172,7 @@ ul.service-roof {
 ul.service-roof li a{
     text-decoration: none;
     font-size: 15px;
+    transition:ease 0.5s;
 }
 
 ul#cc{
@@ -220,4 +222,20 @@ span.copyright{
     position: relative;
     right: -300px;
     top: 45px;
+}
+ul.service-roof li a:hover{
+    font-weight: bolder;
+    transition:ease 0.2s;
+}
+ul#fu li a:hover{
+    font-size: 35px
+}
+ul#fu li a.fb:hover{
+    color: blue;
+}
+ul#fu li a.ins:hover{
+    color: palevioletred;
+}
+ul#fu li a.ytb:hover{
+    color:red;
 }
